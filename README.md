@@ -1,19 +1,18 @@
-# babel-plugin-tntd-utils
+# @dzo/babel-plugin-dz
 
 ## 安装
 ```
-npm install babel-plugin-tntd-utils --save-dev
+npm install @dzo/babel-plugin-dz --save-dev
 ```
 ### 使用说明
 ```
 // .babelrc
 "plugins": [
     [
-      "babel-plugin-tntd-utils",
+      "@dzo/babel-plugin-dz",
       {
         "library": "yournpm" // 支持数组["yournpm", "yournpm2"]
-      },
-      "syntax-decorators"
+      }
     ],
   ]
   
