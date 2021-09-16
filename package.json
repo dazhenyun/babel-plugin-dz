@@ -1,0 +1,27 @@
+{
+  "name": "@dzo/babel-plugin-dz",
+  "version": "1.0.0",
+  "description": "babel按需加载插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "sh ./publish.sh"
+  },
+  "keywords": [
+    "babel-plugin",
+    "tntd-utils"
+  ],
+  "author": "bruceliu",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/types": "^7.3.0"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bruceliu68/babel-plugin-tntd-utils.git"
+  }
+}
